@@ -1,0 +1,58 @@
+#restau{
+	margin-top: 50px;
+	position: relative;
+}
+
+#restau img{
+	width: 100%;
+	height: 100vh;
+}
+#restau .contenedor{
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	color: #fff;
+}
+#restau h2{
+	font-size: 28px;
+}
+#restau a{
+	display: block;
+	width: 100px;
+	color: #fff;
+	text-decoration: none;
+	padding: 7px;
+	margin-top: 10px;
+	border: 3px solid #fff;
+}
+#restau a:hover{
+	background: rgba(51,51,51,0.5);
+}
+
+@media(min-width: 480px){
+	#restau h2{
+		font-size: 40px;
+	}
+
+	#restau a{
+		margin-top: 25px;
+	}
+}
+
+@media (min-width: 768px){
+	#restau{
+		height: 300px;
+		overflow: hidden;
+	}
+
+	#restau img{
+		height: auto;
+		margin-top: -100px;
+	}
+}
+@media(min-width: 1024px){
+	#restau img{
+		margin-top: -200px;
+	}
+}

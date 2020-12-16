@@ -1,0 +1,80 @@
+@import url(menu.css);
+@import url(restau.css);
+@import url(Fotos.css);
+@import url(info.css);
+@import url(estilo.css);
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: sans-serif;
+}
+
+header{
+	width: 100%;
+	height: 50px;
+	background: #333;
+	color: #fff;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100;
+}
+.contenedor{
+	width: 100%;
+	margin: auto;
+}
+
+h1{
+	float: left;
+}
+h2{
+	
+	text-align: justify;
+}
+
+header .contenedor{
+	display: table;
+}
+
+section{
+	width: 100%;
+	margin-bottom: 25px;
+}
+
+#bienvemidos{
+	text-align: center;
+}
+footer .contenedor{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding-bottom: 25px;
+}
+.logo{
+	font-size: 20px;
+}
+
+@media(min-width: 768px){
+	.logo{
+		width: auto;
+	}
+	footer .contenedor{
+		justify-content: space-between;
+	}
+	h1{
+		font-size: 15px;
+	}
+}
+
+@media(min-width: 1024px){
+	.contenedor{
+		width: 1500px;
+	}
+	h1{
+	 font-size: 12px;
+	}
+}

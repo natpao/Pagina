@@ -1,0 +1,23 @@
+#Fotos h3, h4, h5{
+	text-align: center;
+	background: #F7BFBE;
+	color: #000;
+	padding: 20px;
+}
+#Fotos .contenedor{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	
+
+}
+#Fotos article{
+	margin: 15px;
+}
+#Fotos img{
+	width: 100%
+	max-width:280px;
+	height: 380px;
+	border-radius: 50%;
+	border: 7px solid #fff;
+}
