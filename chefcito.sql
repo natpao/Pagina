@@ -44,8 +44,7 @@ CREATE TABLE `cliente` (
 --
 
 INSERT INTO `cliente` (`idCliente`, `nombre`, `apellidoPaterno`, `apellidoMaterno`, `telefono`, `direccion`, `usuario`, `password`, `estado`) VALUES
-(1, 'Nataly Paola', 'Avila ', 'Pineda', '7721063982', 'Pachuca', 'Nataly21', '1234', 1),
-(2, 'Axel', 'Martínez', 'Sanjuan', '7721063982', 'San Pablo Oxtotipan', 'AMS21', '1234', 1);
+(1, 'Nataly Paola', 'Avila ', 'Pineda', '7721063982', 'Pachuca', 'Nataly21', '1234', 1);
 
 -- --------------------------------------------------------
 
@@ -73,9 +72,7 @@ CREATE TABLE `empleado` (
 
 INSERT INTO `empleado` (`idEmpleado`, `nombre`, `apellidoPaterno`, `apellidoMaterno`, `telefono`, `direccion`, `horaEntrada`, `horaSalida`, `usuario`, `password`, `estado`) VALUES
 (1, 'Jacim', 'Vera', 'Fortiz', '7721141525', 'Pachuca de soto', '08:00:00', '17:30:00', 'Jacim2001', '1234', 1),
-(2, 'Axel', 'Martínez', 'Sanjuan', '7721063982', 'San Pablo Oxtotipan', '00:00:00', '00:00:00', 'AMS21', '', 1),
-(3, 'Nataly Paola', 'Avila', 'Pineda', '7721063990', 'Pachuca', '23:05:00', '01:05:00', 'Nataly21', '', 1),
-(4, 'Gustavo Alfonso', 'Trejo', 'Lugo', '7721141966', 'Ixmiquilpan, el Mandho', '08:00:00', '17:00:00', 'Gus17', NULL, 1);
+(2, 'Nataly Paola', 'Avila', 'Pineda', '7721063990', 'Pachuca', '23:05:00', '01:05:00', 'Nataly21', '', 1);
 
 -- --------------------------------------------------------
 
@@ -128,12 +125,7 @@ CREATE TABLE `venta` (
 
 INSERT INTO `venta` (`idVenta`, `idCliente`, `idPlatillo`, `fecha`, `cantidad`, `total`, `estado`) VALUES
 (1, 1, 1, '2020-12-02', 2, 200.00, 1),
-(2, 1, 6, '2020-12-17', 2, 70.00, 1),
-(3, 2, 1, '2020-12-03', 2, 70.00, 1),
-(4, 1, 8, '2020-12-09', 2, 200.00, 1),
-(5, 2, 3, '2020-12-03', 2, 50.00, 1),
-(6, 1, 2, '2020-12-03', 2, 200.00, 1),
-(7, 1, 4, '2020-12-17', 2, 70.00, 1);
+(2, 1, 6, '2020-12-17', 2, 70.00, 1);
 
 --
 -- Índices para tablas volcadas
